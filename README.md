@@ -1,12 +1,18 @@
 # 🍼babyturbidity
 
 ## Introduction
-This repo is dedicated to the baby turbidity sensor. This sensor compromises on accuracy for low-cost. It was developed for a class on environmental sensing based on the Arduino framework.
+This repo is dedicated to the baby turbidity sensor. This sensor compromises on accuracy for low-cost and it was developed for a class on environmental sensing.
 
-#### brief description
+#### Description of the device
 
+This very simple turbidity sensor consists of the [DFRobot turbidity probe](https://www.dfrobot.com/product-1394.html), it is housed in a very simple PVC housing, and it's programmed in the Arduino framework. The "anatomy" of the sensor is shown in the figure below (forgive the German). The senseBox and batteries (figure below - LEFT) are inside of a home-made PVC housing and the housing was closed with a big cork (not the best for waterproofing). The DFRobot probes are housing in a transparent housing and these transparent plastic pieces were glued to our PVC housing (figure below - RIGHT ... I wish I had a better photo of this but I don't). This was done so that the turbidity probes can be directly connected to the senseBox while staying dry and still taking measurements through the small DFRobot transparent housings. 
+
+<img src="sensor_anatomy.PNG" width="600">
 
 #### Example results
+
+<img src="Results/holderbach_results1.PNG" width="1000">
+<img src="Results/holderbach_results2.PNG" width="500">
 
 ## BOM
 
@@ -34,6 +40,7 @@ As the figure below demonstrates, these cheap DF robot sensors are affected by s
 
 ## Other problems
 - This sensor doesn't have a wiper so biofauling would be a problem and the sensor shouldn't be installed long-term without regular maintenance
+- The cork isn't the best for a waterproof housing
 
 ## Contact
 For questions, please email me at droujko@ifu.baug.ethz.ch or @rivertechjess on Twitter :bird:
