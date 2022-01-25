@@ -3,6 +3,10 @@
 ## Introduction
 This repo is dedicated to the baby turbidity sensor. This sensor compromises on accuracy for low-cost. It was developed for a class on environmental sensing based on the Arduino framework.
 
+brief description
+
+
+
 ## BOM
 
 | Item name  | link | Quantity |
@@ -19,8 +23,12 @@ This repo is dedicated to the baby turbidity sensor. This sensor compromises on 
 ## Code
 The senseBox uses the Arduino framework so the Arduino library is a good place to start with example codes for [SD card usage](https://github.com/arduino-libraries/SD). Or the Adafruit library for the [ADC](https://github.com/adafruit/Adafruit_ADS1X15). SenseBox also has example codes for each of their products. But I have also included the (very basic) code that we uploaded to this turbidity sensor.
 
-## Hookup schematics
-<img src="Calibration/calibration_figure.png" width="700">
+## Calibration
+To calibrate the sensor(s), follow the procedure outlined in the folder Calibration. Below you can see an example of the calibration curve our students obtained (LEFT) and the polynomials they fitted to their curves (RIGHT).
+<img src="Calibration/calibration_figure.PNG" width="1000">
+
+## Correlation with sunlight
+
 
 ## Contact
 For questions, please email me at droujko@ifu.baug.ethz.ch or @rivertechjess on Twitter :bird:
