@@ -20,7 +20,7 @@ This repo is dedicated to the baby turbidity sensor. This sensor compromises on 
 The senseBox uses the Arduino framework so the Arduino library is a good place to start with example codes for [SD card usage](https://github.com/arduino-libraries/SD). Or the Adafruit library for the [ADC](https://github.com/adafruit/Adafruit_ADS1X15). SenseBox also has example codes for each of their products. But I have also included the (very basic) code that we uploaded to this turbidity sensor.
 
 ## Hookup schematics
-<img src="Images/schematic.png" width="700">
+<img src="Calibration/calibration_figure.png" width="700">
 
 ## Contact
 For questions, please email me at droujko@ifu.baug.ethz.ch or @rivertechjess on Twitter :bird:
