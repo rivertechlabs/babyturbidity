@@ -23,7 +23,7 @@ The figure to the LEFT shows that the NTU measurements are influenced by solar r
 
 These results show that the sensor is able to measure changes in turbidity, but also that these measurements are affected by solar radiation (see section below). The students also measured the turbidity in two more Zurich rivers (the Sihl and the Limmat) and those results can be found in the folder "Results."
 
-<img src="Results/holderbach_results1.PNG" width="625"> <img src="Results/holderbach_results2.PNG" width="315">
+<img src="Results/holderbach_results1.PNG" width="450"> <img src="Results/holderbach_results2.PNG" width="250">
 
 ## BOM
 
