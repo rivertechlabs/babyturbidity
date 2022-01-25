@@ -5,14 +5,25 @@ This repo is dedicated to the baby turbidity sensor. This sensor compromises on 
 
 #### Description of the device
 
-This very simple turbidity sensor consists of the [DFRobot turbidity probe](https://www.dfrobot.com/product-1394.html), it is housed in a very simple PVC housing, and it's programmed in the Arduino framework. The "anatomy" of the sensor is shown in the figure below (forgive the German). The senseBox and batteries (figure below - LEFT) are inside of a home-made PVC housing and the housing was closed with a big cork (not the best for waterproofing). The DFRobot probes are housing in a transparent housing and these transparent plastic pieces were glued to our PVC housing (figure below - RIGHT ... I wish I had a better photo of this but I don't). This was done so that the turbidity probes can be directly connected to the senseBox while staying dry and still taking measurements through the small DFRobot transparent housings. 
+This very simple turbidity sensor consists of the [DFRobot turbidity probe](https://www.dfrobot.com/product-1394.html), it is housed in a very simple PVC housing, and it's programmed in the Arduino framework. The "anatomy" of the sensor is shown in the figure below (forgive the German).
 
-<img src="sensor_anatomy.PNG" width="600">
+The senseBox and batteries (figure below - LEFT, MIDDLE) are inside of a home-made PVC housing. The housing was closed with a big cork, which is not the best for waterproofing. The DFRobot probes are housed in a transparent housing and these transparent plastic pieces were glued to our PVC housing (figure below - RIGHT ... I wish I had a better photo of this but I don't). This was done so that the turbidity probes can be directly connected to the senseBox while staying dry and still taking measurements through the small DFRobot transparent housings. 
+
+<img src="sensor_image.PNG" width="300"> <img src="sensor_anatomy.PNG" width="600"> 
 
 #### Example results
 
-<img src="Results/holderbach_results1.PNG" width="1000">
-<img src="Results/holderbach_results2.PNG" width="500">
+Below you can see some results obtained using these sensors for three different time periods in April 2020 in the Holderbach river in Zurich. The top panel in each figure shows the turbidity (in NTU) measured by both sensors (blue and orange curves) since our device had two DFRobot turbidity probes.
+
+The middle panel in each figure shows the solar radiation (yellow curve) and the precipitation in mm (blue bars). This data was provided to the students.
+
+The bottom panel in each figure shows again the solar radiation (yellow curve) and the average NTU of both probes (blue curve). We see some very interesting findings int eh figures below.
+
+The figure to the LEFT shows that the NTU measurements are influenced by solar radiation but also around April 12th we see some spikes in turbidity which correspond to precipitation. The MIDDLE figure shows no precipitation but there is anyways a constant increase in NTU. Perhaps this is because the sensor is getting dirty? The last figure to the RIGHT shows increases in NTU corresponding to precipitation, also in the absense of solar radiation.
+
+These results show that the sensor is able to measure changes in turbidity, but also that these measurements are affected by solar radiation (see section below). The students also measured the turbidity in two more Zurich rivers (the Sihl and the Limmat) and those results can be found in the folder "Results."
+
+<img src="Results/holderbach_results1.PNG" width="625"> <img src="Results/holderbach_results2.PNG" width="315">
 
 ## BOM
 
