@@ -9,7 +9,7 @@ This very simple turbidity sensor consists of the [DFRobot turbidity probe](http
 
 The senseBox and batteries (figure below - LEFT, MIDDLE) are inside of a home-made PVC housing. The housing was closed with a big cork, which is not the best for waterproofing. The DFRobot probes are housed in a transparent housing and these transparent plastic pieces were glued to our PVC housing (figure below - RIGHT ... I wish I had a better photo of this but I don't). This was done so that the turbidity probes can be directly connected to the senseBox while staying dry and still taking measurements through the small DFRobot transparent housings. 
 
-<img src="sensor_image.PNG" width="300"> <img src="sensor_anatomy.PNG" width="600"> 
+<img src="sensor_image.PNG" width="200"> <img src="sensor_anatomy.PNG" width="400"> 
 
 #### Example results
 
