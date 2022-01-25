@@ -3,9 +3,10 @@
 ## Introduction
 This repo is dedicated to the baby turbidity sensor. This sensor compromises on accuracy for low-cost. It was developed for a class on environmental sensing based on the Arduino framework.
 
-brief description
+#### brief description
 
 
+#### Example results
 
 ## BOM
 
@@ -28,7 +29,11 @@ To calibrate the sensor(s), follow the procedure outlined in the folder Calibrat
 <img src="Calibration/calibration_figure.PNG" width="1000">
 
 ## Correlation with sunlight
+As the figure below demonstrates, these cheap DF robot sensors are affected by sunlight which is why we calibrate in dark-room conditions (please forgive my hand-drawn units... the students forgot to add the units and I don't have access to the original figure).
+<img src="solar_radiation.PNG" width="500">
 
+## Other problems
+- This sensor doesn't have a wiper so biofauling would be a problem and the sensor shouldn't be installed long-term without regular maintenance
 
 ## Contact
 For questions, please email me at droujko@ifu.baug.ethz.ch or @rivertechjess on Twitter :bird:
