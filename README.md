@@ -39,10 +39,12 @@ These results show that the sensor is able to measure changes in turbidity, but 
 | AA batteries | | 3 |
 
 ## Code
-The senseBox uses the Arduino framework so the Arduino library is a good place to start with example codes for [SD card usage](https://github.com/arduino-libraries/SD). Or the Adafruit library for the [ADC](https://github.com/adafruit/Adafruit_ADS1X15). SenseBox also has example codes for each of their products. But I have also included the (very basic) code that we uploaded to this turbidity sensor.
+The senseBox uses the Arduino framework so the Arduino library is a good place to start with example codes for [SD card usage](https://github.com/arduino-libraries/SD). Or the Adafruit library for the [ADC](https://github.com/adafruit/Adafruit_ADS1X15). SenseBox also has example codes for each of their products. But I have also included the (very basic) code to obtain the turbidity in the folder Codes called "turbidityCalibrated_sensebox.ino.
+
+If you would like to read out from the temperature and/or humidity sensor then you can check out Codes/temperature_humidity.ino. And if you would like to save to an SD card then check out Codes/SD_temp.ino.
 
 ## Calibration
-To calibrate the sensor(s), follow the procedure outlined in the folder Calibration. Below you can see an example of the calibration curve our students obtained (LEFT) and the polynomials they fitted to their curves (RIGHT).
+To calibrate the sensor(s), follow the procedure outlined in Calibration/calibration.pdf. Below you can see an example of the calibration curve our students obtained (LEFT) and the polynomials they fitted to their curves (RIGHT).
 <img src="Calibration/calibration_figure.PNG" width="1000">
 
 ## Correlation with sunlight
