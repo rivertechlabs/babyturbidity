@@ -1,3 +1,9 @@
+// !!!! Please know that this code doesn't give you turbidity,
+// it doesn't save values to an SD card, and it doesn't display
+// anything to an LCD screen. To use those features (SD, LCD)
+// you need to merge this code with the other codes provided in the
+// course.
+  
 #include <Wire.h>
 #include <Adafruit_ADS1015.h>
 
@@ -20,8 +26,10 @@ void loop(void) {
   adc0 = ads.readADC_SingleEnded(0);
   Serial.print("A0: "); Serial.println(adc0);
 
-  float voltage = (adc0 - 20) *  (4.86 - 0.48) / (1623 - 20) + 0.48;
-  float ntu = -1120.4*square(voltage)+5742.3*voltage-4352.9;
+  // The following equation needs to be changed to YOUR NTU=f(bit) equation
+  // found from your own calibration. Follow the calibration methodology
+  // in the calibration.pdf document.
+  float ntu = -1120.4*square(adc0)+5742.3*adc0-4352.9;
 
   Serial.print ("Sensor Output (V):");Serial.println (voltage);
   Serial.print ("Turbidity (NTU):");Serial.println (ntu);
