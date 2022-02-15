@@ -19,7 +19,7 @@ The middle panel in each figure shows the solar radiation (yellow curve) and the
 
 The bottom panel in each figure shows again the solar radiation (yellow curve) and the average NTU of both probes (blue curve). We see some very interesting findings int eh figures below.
 
-The figure to the LEFT shows that the NTU measurements are influenced by solar radiation but also around April 12th we see some spikes in turbidity which correspond to precipitation. The MIDDLE figure shows no precipitation but there is anyways a constant increase in NTU. Perhaps this is because the sensor is getting dirty? The last figure to the RIGHT shows increases in NTU corresponding to precipitation, also in the absense of solar radiation.
+The figure to the LEFT shows that the NTU measurements are influenced by solar radiation but also around April 12th we see some spikes in turbidity which correspond to precipitation. The MIDDLE figure shows no precipitation but there is anyways a constant increase in NTU. Perhaps this is because the sensor is getting dirty? The last figure to the RIGHT shows increases in NTU corresponding to precipitation, also in the absence of solar radiation.
 
 These results show that the sensor is able to measure changes in turbidity, but also that these measurements are affected by solar radiation (see section below). The students also measured the turbidity in two more Zurich rivers (the Sihl and the Limmat) and those results can be found in the folder "Results."
 
