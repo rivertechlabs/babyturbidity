@@ -9,8 +9,7 @@
 #include <Wire.h>
 #include <Adafruit_ADS1X15.h>
 
-// construct an instance of an ADS1015 with the default address (0x48)
-Adafruit_ADS1015 ads;
+Adafruit_ADS1015 ads; // instance of ADS1015 with the default address (0x48)
 
 void setup(void) {
   Serial.begin(9600);
