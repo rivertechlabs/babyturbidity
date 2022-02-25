@@ -8,7 +8,6 @@ void setup() {
   // power on for all ports
   senseBoxIO.powerAll();
 
-  //sht85.init(); // don't need this because previous line powers on all I2C ports
   delay(1000);
 
   // intialize i2c bus

@@ -2,12 +2,12 @@
 #include <SenseBoxMCU.h>
 
 HDC1080 hdc;
-// refers to the address of a file
 File dataFile;
 
 void setup() {
   // power on for all ports
   senseBoxIO.powerAll();
+
   delay(1000);
 
   // intialize i2c bus
