@@ -20,12 +20,14 @@ void setup() {
   hdc.begin();
   sht85.init();
 
+  // optimize SHT Sensor for fastest measurements
+  sht85.setAccuracy(SHT_ACCURACY_LOW);
+
   // setup done
   senseBoxIO.statusGreen();
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
   Serial.print("Temperatur: ");
   Serial.println(hdc.getTemperature());
   Serial.print("Feuchtigkeit: ");
@@ -37,4 +39,6 @@ void loop() {
   Serial.println(sht85.getTemperature());
   Serial.print("Feuchtigkeit SH: ");
   Serial.println(sht85.getHumidity());
+
+  delay(1000);
 }
